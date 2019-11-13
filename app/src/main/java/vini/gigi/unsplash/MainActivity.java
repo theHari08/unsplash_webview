@@ -24,13 +24,14 @@ public class MainActivity extends AppCompatActivity {
     private WebView mywebview;
     private ProgressBar myprogressbar;
     boolean doubleBackToExitPressedOnce = false;
+    String url = "https://unsplash.com/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mywebview = (WebView)findViewById(R.id.webView);
-        mywebview.loadUrl("https://unsplash.com");
+        mywebview.loadUrl(url);
         mywebview.setWebViewClient(new WebViewClient());
         WebSettings webSettings = mywebview.getSettings();
         webSettings.setJavaScriptEnabled(true);
