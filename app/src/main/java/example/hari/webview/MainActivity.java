@@ -1,4 +1,4 @@
-package vini.gigi.unsplash;
+package example.hari.webview;
 
 import android.Manifest;
 import android.app.DownloadManager;

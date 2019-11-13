@@ -1,4 +1,4 @@
-package vini.gigi.unsplash;
+package example.hari.webview;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("vini.gigi.unsplash", appContext.getPackageName());
+        assertEquals("example.hari.webview", appContext.getPackageName());
     }
 }
