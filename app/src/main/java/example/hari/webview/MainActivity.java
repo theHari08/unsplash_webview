@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         webview.loadUrl(url);
         webview.setWebViewClient(new WebViewClient());
         WebSettings webSettings = webview.getSettings();
+        //enable JavaScript
         webSettings.setJavaScriptEnabled(true);
         final SwipeRefreshLayout swipetorefresh;
         swipetorefresh = findViewById(R.id.swiperefresh);
